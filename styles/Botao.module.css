@@ -1,0 +1,12 @@
+.botao {
+    width: 15vh;
+    height: 5vh;
+    background-color: #e06e74;
+    color: #88363b;
+    border-bottom: 50%;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
