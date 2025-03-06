@@ -1,12 +1,12 @@
 # Projeto de Autenticação Front-End ✨
 
-Este é um projeto de front-end que implementa um sistema de autenticação com três páginas: Login, Registro e Recuperação de Senha.
+Este é um projeto de front-end que implementa um sistema de autenticação com três páginas: Login, Registro e Perfil de usuário.
 
 ## 📂Estrutura do Projeto
 
 - `Login`: Página onde os usuários podem inserir suas credenciais para acessar o sistema.
 - `Registro`: Página onde novos usuários podem criar uma conta.
-- `Recuperação de Senha`: Página onde os usuários podem solicitar a recuperação de suas senhas.
+- `Perfil de usuário`: Página onde os usuários podem visualizar e editar
 
 ## 💻Tecnologias Utilizadas 
 
