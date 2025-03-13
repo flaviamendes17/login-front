@@ -23,10 +23,11 @@ export default function Home() {
             </div>
             
                 <div className={styles.login}>
-                    <h1 className={styles.title}>Login</h1>
+                    <h1 className={styles.title}>SIGN IN</h1>
                     <Input label="Email" type="email" id="email" />
                     <Input label="Senha" type="password" id="senha" />
                     <Botao onClick={handleLogin}>Entrar</Botao>
+                    
                     <button className={styles.signUpButton} onClick={handleSignUp}>
                         Sign Up
                     </button>

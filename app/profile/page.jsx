@@ -1,18 +1,19 @@
-import styles from "../../styles/Profile.module.css";
+import "./profile.css";
 
 export default function Profile() {
     return (
-        <div className={styles.profileContainer}>
-            <div className={styles.profileCard}>
+        <div className="profileContainer">
+            <div className="profileCard">
                 <img
                     src="/eu.jfif" 
                     alt="Foto de Perfil"
-                    className={styles.profilePic}
+                    className="profilePic"
                 />
-                <div className={styles.infoCards}>
-                    <div className={styles.card}>Nome: Flavia Mendes</div>
-                    <div className={styles.card}>Aniversário: 17/03/2008</div>
-                    <div className={styles.card}>Técnico em desenvolvimento de sistemas 1</div>
+                <div className="infoCards">
+                    <div className="card">Flavia Mendes</div>
+                    <div className="card">flavia.r.mendes@aluno.senai.br</div>
+                    <div className="card">Aniversário: 17/03/2008</div>
+                    <div className="card">Técnico em desenvolvimento de sistemas 1</div>
                 </div>
             </div>
         </div>
