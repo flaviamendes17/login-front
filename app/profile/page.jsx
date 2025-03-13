@@ -1,11 +1,11 @@
-import styles from "../styles/Profile.module.css";
+import styles from "../../styles/Profile.module.css";
 
 export default function Profile() {
     return (
         <div className={styles.profileContainer}>
             <div className={styles.profileCard}>
                 <img
-                    src="/profile-pic.jpg" 
+                    src="/eu.jfif" 
                     alt="Foto de Perfil"
                     className={styles.profilePic}
                 />
