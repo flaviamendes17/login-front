@@ -1,31 +1,23 @@
-"use client";
-
 import styles from "../styles/Home.module.css";
 import Input from "../components/Input";
 import Botao from "../components/Botao";
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 
-export default function Home() {
+export default function SignUp() {
     const router = useRouter();
 
-    const handleLogin = () => {
+    const handleSignUpSubmit = () => {
         router.push('/profile'); 
-    };
-
-    const handleSignUp = () => {
-        router.push('/signup'); 
     };
 
     return (
         <div className={styles.container}>
             <div className={styles.login}>
-                <h1>Login</h1>
+                <h1>Cadastro</h1>
                 <Input label="Email" type="email" />
+                <Input label="Nome" type="text" />
                 <Input label="Senha" type="password" />
-                <Botao onClick={handleLogin}>Entrar</Botao>
-                <button className={styles.signUpButton} onClick={handleSignUp}>
-                    Sign Up
-                </button>
+                <Botao onClick={handleSignUpSubmit}>Cadastrar</Botao>
             </div>
         </div>
     );
