@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100vw;
+    height: 120vh;
     background-color: #f0f0f0;
 }
 
@@ -11,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vh;
+    width: 90vh;
     padding: 20px;
     border-radius: 10px;
     background-color: #fff;
@@ -42,4 +43,34 @@
     border-radius: 5px;
     width: 100%;
     text-align: center;
+}
+
+.backToLoginButton {
+    margin: 10px 0;
+    padding: 8px 16px; 
+    background-color: #ece5dc;
+    color: #a53b39;
+    border-radius: 5px;
+    width: auto; 
+    font-size: 0.9rem; 
+    text-align: center;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.backToLoginButton:hover {
+    background-color: #d6ccc2; 
+}
+
+.competencias img {
+    width: 10vh;
+    height: 10vh;
+    margin: 0.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.competencias img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
