@@ -82,3 +82,8 @@
 .signUpButton:hover {
     background-color: #c1d5d8;
 }
+
+.signUpButton a {
+    text-decoration: none;
+    color: white;
+}
